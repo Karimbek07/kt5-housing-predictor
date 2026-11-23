@@ -1,0 +1,2 @@
+# File is ~90 MB, store it in Git LFS for Streamlit Community Cloud.
+KT5_models_and_preprocessing.joblib filter=lfs diff=lfs merge=lfs -text

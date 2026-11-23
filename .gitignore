@@ -1,0 +1,18 @@
+# Локальные настройки и временные файлы
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+.streamlit/secrets.toml
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Файл исходных моделей КТ3 не нужен для облачного запуска КТ5
+KT3_models_and_preprocessing.joblib
+
+# Архивы собранного релиза и локальные результаты
+KT5_Housing_FULL.zip
+**/housing_predictions.csv
